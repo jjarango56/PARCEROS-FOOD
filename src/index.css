@@ -4,8 +4,8 @@
   --color-bg-primary: oklch(97.015% 0.00011 271.152);
   --color-bg-ui:oklch(61.401% 0.24509 28.62);
   --color-text-titles:oklch(95.01% 0.03727 71.179);
-  --color-text-second:oklch(26.448% 0.00003 271.152);
-  --color-text-primary:oklch(20.904% 0.00002 271.152);
+  --color-text-second:oklch(58.971% 0.00007 271.152);
+  --color-text-primary:oklch(20.134% 0.00159 16.495);
 
   /* dark */
   --color-bg-primary-dark: oklch(20.019% 0.00002 271.152);

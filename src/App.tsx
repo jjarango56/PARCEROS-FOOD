@@ -1,16 +1,7 @@
-import { Outlet } from "react-router-dom";
-import { NavBar } from "./components/NavBar";
+import { Layout } from "./components/Layout";
 
-function App() {
-  return(
-     <aside className="bg-bg-primary">
-     <NavBar
-     title="Parceros FOOD"/>
-     <main>
-      <Outlet/>
-     </main>
-    
-     </aside>)
+export function App() {
+  return <Layout />;
 }
 
-export default App;
+
