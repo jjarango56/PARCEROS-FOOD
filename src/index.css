@@ -2,10 +2,12 @@
 
 :root{
   --color-bg-primary: oklch(97.015% 0.00011 271.152);
-  --color-bg-ui:oklch(61.401% 0.24509 28.62);
+  --color-bg-ui:oklch(44.311% 0.1761 28.529);
   --color-text-titles:oklch(95.01% 0.03727 71.179);
+  --color-titles-car: oklch(14.479% 0.00002 271.152);
   --color-text-second:oklch(58.971% 0.00007 271.152);
-  --color-text-primary:oklch(20.134% 0.00159 16.495);
+  --color-text-primary:oklch(97.69% 0.00104 11.297);
+  --color-error: oklch(61.832% 0.2309 30.418);
 
   /* dark */
   --color-bg-primary-dark: oklch(20.019% 0.00002 271.152);
@@ -13,6 +15,8 @@
   --color-text-titles-dark:oklch(92.727% 0.00322 15.415);
   --color-text-second-dark:oklch(39.418% 0.00004 271.152);
   --color-text-primary-dark:oklch(100% 0.00011 271.152);
+  --color-error-dark: oklch(59.58% 0.22657 30.431);
+  --color-titles-card-dark: oklch(99.107% 0.00011 271.152);
 }
 
 @theme{
@@ -22,6 +26,8 @@
 --color-text-titles:var(--color-text-titles);
 --color-text-second:var(--color-text-second);
 --color-text-primary:var(--color-text-primary);
+--color-error: var(--color-error);
+--color-titles-car: var(--color-titles-card);
 }
 
 @custom-variant dark (&:is(.dark *));
@@ -32,4 +38,7 @@
   --color-text-titles: var(--color-text-titles-dark);
   --color-text-second: var(--color-text-second-dark);
   --color-text-primary: var(--color-text-primary-dark);
+  --color-error: var(--color-error-dark);
+  --color-titles-car: var(--color-titles-card-dark);
+
 }

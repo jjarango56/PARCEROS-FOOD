@@ -8,5 +8,7 @@ export const useSearch = () =>{
         const nameProduct = product.title.toLowerCase().trim();
         return nameProduct.includes(search);
     });
+
+    
     return {productsFilter,query,setQuery}
 }

@@ -3,7 +3,7 @@ import { Layout } from "../components/Layout";
 import { Products } from "../pages/Products";
 import { Index } from "../pages/index";
 import { Introduction } from "../pages/Introduction";
-
+import { ErrorBoundary } from "../components/ErrorBoundary";
 export const router = createBrowserRouter(
   [
     {
@@ -31,6 +31,10 @@ export const router = createBrowserRouter(
             },
           ],
         },
+        {
+          path:"*",
+          element:<ErrorBoundary title="Upss.... Error" error="404" description="Pagina no encontrada por favor verifica la direccion o intenta volver al inicio"/>,
+        }
       ],
     },
   ],

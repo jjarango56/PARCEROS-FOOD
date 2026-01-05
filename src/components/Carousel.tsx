@@ -22,8 +22,8 @@ export function CarouselDemo() {
                 <div className="text-text-titles text-xl md:text-2xl font-bold mb-4">
                   {item.content}
                 </div>
-                <div className="text-text-second text-sm md:text-base">
-                  Descubre más sobre nuestros productos excepcionales.
+                <div className="text-text-second text-sm md:text-base ">
+                  Descubre más sobre nuestros productos .
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ export function CarouselDemo() {
             onClick={() => setCurrentIndex(index)}
             className={`w-3 h-3 rounded-full transition-colors duration-300 ${
               index === currentIndex
-                ? "bg-text-titles"
+                ? "bg-bg-ui"
                 : "bg-text-second hover:bg-text-titles"
             }`}
           />

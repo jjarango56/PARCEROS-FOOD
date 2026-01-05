@@ -33,7 +33,7 @@ export const Index = ({ url, logo, description, title }: Props) => {
             {title}
           </h2>
           <div className="h-1 w-20 bg-bg-ui mx-auto rounded-full" />{" "}
-          {/* Línea decorativa */}
+      
         </div>
 
         <div className="flex flex-col w-full max-w-xs gap-4 mt-4">

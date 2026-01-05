@@ -22,10 +22,10 @@ export const NavBar = ({ title }: DefinitionProps) => {
       
       <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
         <Links
-        ahref="Products"
-        style=""
-        content="Productos"
-        />
+            ahref="/Introduction"
+            content="Productos"
+            style=""
+          />
         <Buttons
           change={handleTheme}
           content={`Modo : ${theme}`}
