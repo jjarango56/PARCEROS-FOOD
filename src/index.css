@@ -2,43 +2,50 @@
 
 :root{
   --color-bg-primary: oklch(97.015% 0.00011 271.152);
-  --color-bg-ui:oklch(44.311% 0.1761 28.529);
-  --color-text-titles:oklch(95.01% 0.03727 71.179);
-  --color-titles-car: oklch(14.479% 0.00002 271.152);
+  --color-bg-nav:oklch(16.842% 0.00002 271.152);
+  --color-text-titles:oklch(13.441% 0.00002 271.152);
+  --color-card: oklch(16.051% 0.02979 276.346);
   --color-text-second:oklch(58.971% 0.00007 271.152);
   --color-text-primary:oklch(97.69% 0.00104 11.297);
   --color-error: oklch(61.832% 0.2309 30.418);
+  --color-button:oklch(56.424% 0.13583 139.212);
+  --color-bg-input: oklch(100% 0 0);
 
   /* dark */
-  --color-bg-primary-dark: oklch(20.019% 0.00002 271.152);
-  --color-bg-ui-dark:oklch(27.274% 0.00003 271.152);
-  --color-text-titles-dark:oklch(92.727% 0.00322 15.415);
+  --color-bg-primary-dark: oklch(16.842% 0.00002 271.152);
+  --color-bg-nav-dark:oklch(0% 0 0);
+  --color-text-titles-dark:oklch(100% 0.00011 271.152);
   --color-text-second-dark:oklch(39.418% 0.00004 271.152);
   --color-text-primary-dark:oklch(100% 0.00011 271.152);
   --color-error-dark: oklch(59.58% 0.22657 30.431);
-  --color-titles-card-dark: oklch(99.107% 0.00011 271.152);
+  --color-card-dark: oklch(13.847% 0.02488 273.247);;
+  --color-button-dark:oklch(45.273% 0.14956 139.008);
+  --color-bg-input-dark: oklch(31.859% 0.03015 289.95 / 0.233);
 }
 
 @theme{
 --color-bg-primary: var(--color-bg-primary);
---color-bg-ui:var(--color-bg-ui);
 --color-bg-nav:var(--color-bg-nav);
 --color-text-titles:var(--color-text-titles);
 --color-text-second:var(--color-text-second);
 --color-text-primary:var(--color-text-primary);
 --color-error: var(--color-error);
---color-titles-car: var(--color-titles-card);
+--color-card: var(--color-card);
+--color-button:var(--color-button);
+--color-bg-input: var(--color-bg-input);
 }
 
 @custom-variant dark (&:is(.dark *));
 
 .dark{
    --color-bg-primary: var(--color-bg-primary-dark);
-  --color-bg-ui: var(--color-bg-ui-dark);
+  --color-bg-nav: var(--color-bg-nav-dark);
   --color-text-titles: var(--color-text-titles-dark);
   --color-text-second: var(--color-text-second-dark);
   --color-text-primary: var(--color-text-primary-dark);
   --color-error: var(--color-error-dark);
-  --color-titles-car: var(--color-titles-card-dark);
+  --color-card: var(--color-card-dark);
+  --color-button: var(--color-button-dark);
+  --color-bg-input: var(--color-bg-input-dark);
 
 }
